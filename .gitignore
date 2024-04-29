@@ -1,0 +1,31 @@
+# sphinx output
+_build
+
+# Logs
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Hardhat artifacts
+artifacts/
+cache/
+
+# Certora
+.certora*
+.last_confs
+certora_*
+resource_errors.json
+
+# mac
+.DS_Store
